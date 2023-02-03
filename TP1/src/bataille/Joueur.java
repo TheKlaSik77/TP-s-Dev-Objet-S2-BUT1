@@ -62,5 +62,19 @@ public class Joueur {
         return this.cartes.size();
     }
 
+    public Carte tricher1(){
+
+        Carte carteMax = this.cartes.get(0);
+        int indice = 0;
+        for (int i = 1 ; i < this.cartes.size() ; i++){
+            if (cartes.get(i).compareTo(carteMax) == 1){
+                carteMax = cartes.get(i);
+                indice = i;
+            }
+        }
+        return this.cartes.remove(indice);
+
+    }
+
 
 }

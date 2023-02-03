@@ -59,15 +59,15 @@ public class Essai {
         System.out.println(joueur2);
         Carte cartePoseeJ1 = joueur1.poserUneCarte();
         Carte cartePoseeJ2 = joueur2.poserUneCarte();
-        System.out.println("Carte Joueur 1 : " + cartePoseeJ1);
-        System.out.println("Carte Joueur 2 : " + cartePoseeJ2);
+        System.out.println("Carte Joueur 1, " + cartePoseeJ1 + " cartes.");
+        System.out.println("Carte Joueur 2, " + cartePoseeJ2 + " cartes.");
         System.out.println(cartePoseeJ1.compareTo(cartePoseeJ2));
         System.out.println("Il reste " + joueur1.nbCartesRestantes() + " au joueur 1.");
 
         cartePoseeJ1 = joueur1.poserUneCarte();
         cartePoseeJ2 = joueur2.poserUneCarte();
-        System.out.println("Carte Joueur 1 : " + cartePoseeJ1);
-        System.out.println("Carte Joueur 2 : " + cartePoseeJ2);
+        System.out.println("Carte Joueur 1, " + cartePoseeJ1 + " cartes.");
+        System.out.println("Carte Joueur 2, " + cartePoseeJ2 + " cartes.");
         System.out.println(cartePoseeJ1.compareTo(cartePoseeJ2));
         System.out.println("Il reste " + joueur1.nbCartesRestantes() + " au joueur 1.");
     }

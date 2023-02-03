@@ -22,7 +22,6 @@ public class Carte {
         this.couleur = couleur;
     }
 
-
     public boolean supérieureA(Carte c) {
         return this.valeur > c.valeur;
     }
